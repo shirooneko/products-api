@@ -1,21 +1,25 @@
 # Products API
 
-
 ## Getting Started
 
 To set up this project locally, follow these steps:
 
 
-First, clone the repository to your local machine:
+1. Clone the repository to your local machine:
+    ```sh
+    git clone https://github.com/shirooneko/products-api.git
+    ```
+F2. Navigate to the project directory:    ```sh
+    cd products-api
+    ```
+3. Run the database migrations:    ```sh
+    php artisan migrate
+    ```
 
-```
-git clone https://github.com/shirooneko/products-api.git
-```
-
-```
-cd products-api
-```
-
+4. Start the development server:
+    ```sh
+    php artisan serve
+    ```
 ```
 php artisan migrate
 ```

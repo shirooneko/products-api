@@ -9,10 +9,12 @@ To set up this project locally, follow these steps:
     ```sh
     git clone https://github.com/shirooneko/products-api.git
     ```
-2. Navigate to the project directory:    ```sh
+2. Navigate to the project directory:    
+    ```sh
     cd products-api
     ```
-3. Run the database migrations:    ```sh
+3. Run the database migrations:    
+    ```sh
     php artisan migrate
     ```
 
